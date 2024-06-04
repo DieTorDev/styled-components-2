@@ -10,6 +10,10 @@ const StyledRating = styled.div`
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: ${({ $margin }) => $margin};
+  }
 `;
 
 const StyledStars = styled.div`

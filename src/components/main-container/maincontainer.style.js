@@ -7,6 +7,8 @@ const StyledMainContainer = styled.main`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-width: 1110px;
+    margin: auto;
   }
 `;
 
@@ -32,6 +34,7 @@ const StyledOpinionContainer = styled.section`
   @media screen and (min-width: 768px) {
     width: 100%;
     flex-direction: row;
+    justify-content: space-between;
   }
 `;
 
